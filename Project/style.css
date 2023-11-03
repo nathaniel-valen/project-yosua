@@ -1,0 +1,152 @@
+/* Gaya kustom untuk navbar */
+
+ nav {
+  position: fixed;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #29c5f6;
+  color: #fff;
+ }
+
+ .navbar-nav .nav-link {
+    color: #ffffff;
+    transition: color 0.5s;
+  }
+  .navbar-nav .nav-link:hover {
+    color: black;
+  }
+  
+  .navbar .dropdown-menu {
+      background-color: #fff; /* Set latar belakang elemen dropdown */
+      /* Tambahkan atribut lain sesuai kebutuhan */
+  }
+
+
+
+
+/* Gaya kustom untuk kartu layanan */
+.service-card {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .service-card i {
+    font-size: 48px;
+    color: #29C5F6;
+    margin-bottom: 20px;
+  }
+
+  .service-card .card-body {
+    flex-grow: 1;
+  }
+
+  .container-services {
+    margin-top: 50px;
+  }
+
+  .container-about {
+    margin-top: 50px;
+  }
+
+  /* Halaman Quiz.html */
+  .carousel-container {
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .carousel-slide {
+        display: none;
+    }
+    .question {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .option {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin: 10px;
+    }
+    .option input[type="radio"] {
+        margin-right: 10px;
+    }
+    .option label {
+        font-size: 18px;
+    }
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .btn-ulangi a {
+      text-decoration: none;
+      color: white;
+      transition: color 0.1s;
+    }
+
+    .btn-ulangi a:hover {
+      color: black;
+    }
+    .correct-answer {
+        color: green;
+    }
+    .wrong-answer {
+        color: red;
+    }
+
+    .result .correct-answer {
+      background-color: #4CAF50; /* Warna latar belakang hijau untuk jawaban benar */
+      color: #fff; /* Teks putih untuk jawaban benar */
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    .result .incorrect-answer {
+        background-color: #FF5733; /* Warna latar belakang merah untuk jawaban salah */
+        color: #fff; /* Teks putih untuk jawaban salah */
+        padding: 10px;
+        border-radius: 5px;
+    }
+  
+
+    .carousel-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 70vh;
+      margin-top: 50px;
+    }
+  
+    .carousel-slide {
+      display: none;
+      text-align: center;
+      max-width: 400px; /* Sesuaikan lebar maksimal sesuai kebutuhan Anda */
+    }
+  
+    .result {
+      text-align: center;
+      font-size: 24px;
+    }
