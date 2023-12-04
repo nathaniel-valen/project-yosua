@@ -10,7 +10,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: #29c5f6;
+  background-color: #5ca904;
   color: #fff;
  }
 
@@ -26,7 +26,6 @@
       background-color: #fff; /* Set latar belakang elemen dropdown */
       /* Tambahkan atribut lain sesuai kebutuhan */
   }
-
 
 
 
@@ -62,6 +61,10 @@
     margin-top: 50px;
   }
 
+  .container-activity {
+    margin-top: 50px;
+  }
+
   /* Halaman Quiz.html */
   .carousel-container {
     max-width: 768px;
@@ -72,6 +75,7 @@
     .carousel-slide {
         display: none;
     }
+
     .question {
         font-size: 24px;
         font-weight: bold;
@@ -89,16 +93,6 @@
     .option label {
         font-size: 18px;
     }
-    .btn {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: #ffffff;
-        text-decoration: none;
-        border-radius: 5px;
-        cursor: pointer;
-        margin-top: 20px;
-    }
 
     .btn-ulangi a {
       text-decoration: none;
@@ -107,7 +101,7 @@
     }
 
     .btn-ulangi a:hover {
-      color: black;
+      color: white;
     }
     .correct-answer {
         color: green;
@@ -150,3 +144,5 @@
       text-align: center;
       font-size: 24px;
     }
+
+    
